@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/todos"; // 백엔드 주소를 변수로 저장함
+const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api/todos"; // 백엔드 주소를 변수로 저장함
 
 function App() {
   const [todos, setTodos] = useState([]);
