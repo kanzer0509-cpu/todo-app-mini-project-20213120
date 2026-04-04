@@ -5,7 +5,7 @@
 사용자는 할 일을 입력하여 추가, 완료 여부를 체크하고 삭제할 수 있습니다.
 
 ## Vercel 배포 링크
-https://todo-app-mini-project-20213120.vercel.app
+https://todo-app-mini-project-20213120.vercel.app/
 
 ## 사용 기술
 - frontend : React + Vive
